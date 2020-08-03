@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StyledEditText">
+        <attr name="inputType" format="string"/>
+        <attr name="android:drawable" format="reference"/>
+        <attr name="hint" format="string"/>
+    </declare-styleable>
+</resources>

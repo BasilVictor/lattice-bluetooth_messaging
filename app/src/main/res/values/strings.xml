@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">The Lattice Bluetooth Messaging App</string>
+    <string name="none_found">No devices found</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="address">ADDRESS</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="phone">PHONE</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="submit">SIGN UP</string>
+    <string name="sign_up_criteria">* Name should be at least 4 characters.\n* Address should be at least 10 characters.\n* Email should be a valid email.\n* Phone must have country code (+) with at at least 10 digits.\n* Password should be within 8-15 characters consisting of at least 1 lowercase, 1 uppercase and 1 digit.</string>
+    <string name="err_connection_status">Not Connected</string>
+    <string name="type_message">Type message</string>
+    <string name="create_account">Create Account</string>
+    <string name="signup_prompt">Please fill the input below here</string>
+    <string name="sign_in">Welcome Back</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="question_sign_in">Sign in</string>
+    <string name="question_sign_up">Sign Up</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+</resources>

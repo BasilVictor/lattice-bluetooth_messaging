@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_round_normal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/top_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HINT"
+                android:textSize="11dp"
+                android:layout_marginLeft="52dp"
+                android:layout_marginTop="12dp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/hint"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="HINT"
+                android:layout_below="@id/top_hint"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="52dp"
+                android:textColor="@color/grey"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="12dp"
+                android:layout_below="@id/top_hint">
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:tint="@color/grey"
+                    android:layout_marginLeft="16dp"/>
+
+                <EditText
+                    android:id="@+id/input_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/mont_med"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="20dp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>
